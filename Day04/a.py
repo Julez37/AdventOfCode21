@@ -2,6 +2,7 @@ from helper.quiz import Quiz
 from math import ceil
 from Day04.BingoField import BingoBoard
 
+
 class Day(Quiz):
 
     def solve(self) -> None:

@@ -2,6 +2,7 @@ from helper.quiz import Quiz
 from math import ceil
 from Day04.BingoField import BingoBoard
 
+
 class Day(Quiz):
 
     def solve(self) -> None:
@@ -19,5 +20,3 @@ class Day(Quiz):
                     finishedBoards += 1
                     if finishedBoards == len(boards):
                         self.result = turn * sum(board.getFields(False))
-
-
