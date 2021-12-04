@@ -1,4 +1,4 @@
-from quiz import Quiz
+from helper.quiz import Quiz
 
 
 class Day(Quiz):
