@@ -1,4 +1,4 @@
-from Day04.b import Day
+from Day06.b import Day
 
 
 # This is a sample Python script.
@@ -15,7 +15,7 @@ def print_hi(name):
 # Press the green button in the gutter to run the script.
 if __name__ == '__main__':
     quiz = Day()
-    quiz.test(1924)
+    quiz.test(26984457539)
     quiz.solve()
     print(quiz.result)
 
